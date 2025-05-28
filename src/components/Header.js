@@ -5,6 +5,7 @@ import bell from "../assets/bell.png"
 import profilelogo from "../assets/Ellipse 6.png"
 import downarrow from "../assets/down_arrow.png"
 import searchIcon from "../assets/Search.png"
+import greenicon from "../assets/greenicon.png"
 const Header = ()=>{
     return(
         <div className="header_container">
@@ -15,7 +16,13 @@ const Header = ()=>{
            </div>
            <div className="header_middle">
               <div className="header_role">
-                 <p>Student</p>
+                  <figure>
+                     <img src={greenicon} alt="greenicon"/>
+                  </figure>
+                  <div className="header_role_text">
+                      <p>Student</p>
+                  </div>
+                
               </div>
               <div className="header_input">
                   <input type="text" required/>
