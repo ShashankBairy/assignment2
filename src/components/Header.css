@@ -54,6 +54,18 @@
     padding-left: 10px;
 }
 
+.header_role_x{
+    display: none;
+}
+
+.header_role:hover{
+    width:90px;
+    transition: 0.3s ease-in-out;
+}
+
+.header_role:hover .header_role_x{
+    display: block;
+}
 
 .header_right{
     display: flex;

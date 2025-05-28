@@ -8,3 +8,10 @@
 aside{
   width:5%;
 }
+
+main{
+  width:95%;
+  background-color: #F2F2F2;
+  padding: 10px;
+  height: 100%;
+}
